@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header .logo h2{
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+    color: #34C759;
+    letter-spacing: 2px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
